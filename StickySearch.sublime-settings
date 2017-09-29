@@ -5,6 +5,6 @@
     // such as Packages/Theme - Default/dot.png.
     "icon": "dot",
     // Style of search highlighting
-    "fill": false,
-    "outline": true
+    "fill": true,
+    "outline": false
 }
