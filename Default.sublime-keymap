@@ -1,9 +1,7 @@
 
 // <binding key="ctrl+shift+keypad_divide" command="findNext" />
 [
-	{ "keys": ["ctrl+8"], "command": "stickysearch", "args": {"op" : "set"} },
-	{ "keys": ["ctrl+shift+8"], "command": "stickysearch", "args": {"op" : "add"} },
-	{ "keys": ["ctrl+alt+8"], "command": "stickysearch", "args": {"op" : "clear"} },
-
-    { "keys": ["ctrl+k", "ctrl+8"], "command": "stickysearch", "args": {"op" : "set"} },
+    { "keys": ["ctrl+k", "ctrl+8"], "command": "stickysearch", "args": {"op" : "add"} },
+    { "keys": ["ctrl+k", "ctrl+7"], "command": "stickysearch", "args": {"op" : "set"} },
+    { "keys": ["ctrl+k", "ctrl+6"], "command": "stickysearch", "args": {"op" : "clear"} },
 ]
